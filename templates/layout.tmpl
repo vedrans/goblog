@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GoPress - Blog Platform</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="//fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container box_shadow">
+        <div id="slogan"><a href="/">Here goes some slogan</a></div>
+        <a href="/"><img id="banner" src="/img/banner.jpg" /></a>
+      <div class="content">
+        <p id="menu">
+          <a href="/" type="button" class="btn btn-primary">Go Home</a>
+          <a href="/create" type="button" class="btn btn-primary">Create Post</a>
+          <a href="/signup" type="button" class="btn btn-success">Register</a>
+          <a href="/logout" type="button" class="btn btn-danger">Logout</a>
+        </p>
+        {{ yield }}
+      </div>
+      <hr />
+      <div id="footer">Copyright &copy; 2014 &dash; Some Company Name &dash; All rights reserved</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="/addons/markdown/js/bootstrap-markdown.js"></script>
+    <script src="/addons/markdown/js/markdown.js"></script>
+    <script src="/addons/markdown/js/to-markdown.js"></script>
+  </body>
+</html>

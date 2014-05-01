@@ -1,0 +1,7 @@
+
+<div>
+  <h1>{{.Title}}</h1>
+  <p>{{.Content | unescaped }}</p>
+  <a href="/delete?id={{.Id}}" type="button" class="btn btn-danger">Delete Post<a/>
+  <a href="/update?id={{.Id}}" type="button" class="btn btn-primary">Update Post<a/>
+</div>

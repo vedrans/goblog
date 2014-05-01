@@ -1,0 +1,14 @@
+<form action="/save" method="POST">
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" name="title" value="{{.Title}}"/>
+  </div>
+  <div class="form-group">
+    <label>Content</label>
+    <textarea id="content" rows="30" data-provide="markdown" class="form-control" name="content">{{.Content}}</textarea>
+  </div>
+  <div id="epiceditor"></div>
+  <p></p>
+  <input name="articleId" type="hidden" value="{{.Id}}" />
+  <input type="submit" class="btn btn-primary" />
+</form>

@@ -1,0 +1,7 @@
+{{ range . }}
+<div id="articles">
+  <h1><a href="/read?id={{.Id}}">{{.Title}}</a></h1>
+  <p>{{.Content | unescaped}}</p>
+</div>
+<hr />
+{{ end }}
