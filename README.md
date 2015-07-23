@@ -1,4 +1,4 @@
-#GoBlog - blog platform written in Golang (pre-alpha)
+#GoBlog - blog platform written in Golang
 
-As said in tile this is simple blog platform that uses PostgreSQL as data storage and is written in Golang.
-It is pre - alpha and is far from stable for using, created as hobby while I was playing with Golang.
+Blog platform written in Golang and using Martini as playground showcase of golang. This code is far from being stable.
+Currently I am not maintaining this code.
